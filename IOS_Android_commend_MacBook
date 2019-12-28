@@ -1,0 +1,28 @@
+1. How to create signed SHA key from commend line in MacBook
+
+How to get SHA or MD5 key certificate 
+keytool -list -v -keystore /Users/admin/Downloads/keystore     (/Users/admin/Downloads/keystore  path of .keyStore file)
+
+
+2. How to generate  .Pem  From  .P12
+openssl pkcs12 -in /Users/admin/Documents/TechMCode/Backup/APNs\ Details/PamlLeaf_TechM/Development_testing.p12 -out development_testing.pem
+
+
+
+3.  GitHub Commend Line
+Command 
+  1.   git init		// Initialize a local directory for Git version control
+  2.   git remote -v   		// get remote repository url or link
+  3.   git clone https://gitlab.com/gitlab-org/gitlab.git   		// get copy or clone from any public repository 
+  4.   git checkout master     		// get checkout from repository  master or any repository
+  5.   git log     		// get git log history
+  6.   git status 	 // get file status 
+  7.   git reset 9a7655a6c2fc6fd394bc75ef10bbc1ae60f99c03  			//  reset all commit code after that commit version
+  8.   git checkout master		// switch to a different branch by changing master to the branch name
+  9.   git branch    				// get current branch 
+ 10.   git add *   OR  git add fileName     OR    git  add folderName	 		//  for add all  changes file
+ 11.   git commit -m"Search, Superigniter,BrandShop and lot of bug fixed in this version with notification”    // commit the all add & changes file on gitlab, then 25 char
+ 12.   git push   OR   git push origin master    OR      git push --set-upstream origin palmleaf_android_abhishek     // for push code on gitlab remote repository after add and commit 
+ 13.   git pull   		 // for get update from repository to current local branch 
+ 14.   git diff    // check  diff b/w current  local woking copy  and committed working copy diff
+ 15 .  git merge master 		//Merge a branch with master branch
